@@ -1,0 +1,222 @@
+# 🚀 Featured Projects
+
+---
+
+## 🖼 Image Annotation Software
+
+**Overview**
+
+A professional desktop application for viewing, analyzing, and annotating high-resolution images. The software was developed to simplify image inspection and improve workflow efficiency.
+
+### Highlights
+
+* Interactive Image Viewer
+* Zoom & Pan Controls
+* Image Annotation
+* SQL Database Integration
+* FTP Image Management
+* Multi-Window Interface
+
+**Technologies**
+
+VB.NET • Windows Forms • SQL Server • FluentFTP
+
+---
+
+## 📁 FTP Image Management System
+
+**Overview**
+
+A desktop application for managing images through an FTP server with secure file transfer and synchronization capabilities.
+
+### Highlights
+
+* FTP Upload & Download
+* Folder Synchronization
+* Image Preview
+* Database Connectivity
+* File Management
+
+**Technologies**
+
+VB.NET • SQL Server • FluentFTP
+
+---
+
+## 🚗 CAN Bus Diagnostic Tool
+
+**Overview**
+
+A desktop application developed for automotive CAN Bus communication, diagnostic message handling, and ECU interaction.
+
+### Highlights
+
+* CAN Communication
+* ECU Diagnostics
+* ISO-TP Communication
+* Message Monitoring
+* Data Analysis
+
+**Technologies**
+
+Delphi • CAN Bus • ISO-TP
+
+---
+
+## 💾 EEPROM Reader & Writer
+
+**Overview**
+
+A desktop utility designed for reading, writing, verifying, and managing EEPROM memory devices with reliable data handling.
+
+### Highlights
+
+* EEPROM Read & Write
+* Memory Management
+* Hexadecimal Data Handling
+* Serial Communication
+* Data Verification
+
+**Technologies**
+
+VB.NET • Arduino • EEPROM
+
+---
+
+## 🛡 Smart Border Security System
+
+**Overview**
+
+An intelligent security system capable of detecting and tracking objects automatically using sensors, servo motors, and laser technology.
+
+### Highlights
+
+* Object Detection
+* Laser Tracking
+* Servo Motor Control
+* Distance Measurement
+* Real-Time Monitoring
+
+**Technologies**
+
+Arduino • C++ • Ultrasonic Sensor • Servo Motor
+
+---
+
+## 🎯 Laser Tracking System
+
+**Overview**
+
+A real-time tracking system integrated with a desktop application to visualize object movement and tracking information.
+
+### Highlights
+
+* Target Tracking
+* Live Visualization
+* Position Calculation
+* Serial Communication
+* Graphical Monitoring
+
+**Technologies**
+
+Arduino • VB.NET • C++
+
+---
+
+## 🌐 Personal Portfolio Website
+
+**Overview**
+
+A modern, responsive portfolio website created to present my technical skills, projects, achievements, and professional journey in an engaging way.
+
+### Highlights
+
+* Responsive Design
+* Modern UI/UX
+* Smooth Animations
+* Interactive Project Showcase
+* Contact & Social Integration
+
+**Technologies**
+
+HTML5 • CSS3 • JavaScript
+
+---
+
+## 🏭 Industrial Automation Projects
+
+**Overview**
+
+A collection of engineering and automation projects focused on industrial control systems, sensors, and process automation.
+
+### Highlights
+
+* PLC Programming
+* Industrial Automation
+* Sensor Integration
+* Control Systems
+* Process Monitoring
+
+**Technologies**
+
+PLC • Industrial Sensors • Automation
+
+---
+
+## 🤖 Arduino & Embedded Systems
+
+**Overview**
+
+A series of embedded system projects involving microcontrollers, communication protocols, and hardware integration for real-world applications.
+
+### Highlights
+
+* Embedded Programming
+* Hardware Interfacing
+* UART / SPI / I²C Communication
+* Sensor Integration
+* Device Control
+
+**Technologies**
+
+Arduino • Embedded C++ • Microcontrollers
+
+---
+
+## 📊 Data Visualization & Monitoring
+
+**Overview**
+
+Developed desktop applications to visualize real-time sensor data using interactive charts, graphs, and monitoring dashboards.
+
+### Highlights
+
+* Live Data Visualization
+* Interactive Graphs
+* Heat Maps
+* Serial Communication
+* Performance Monitoring
+
+**Technologies**
+
+VB.NET • Charts • Arduino • SQL Server
+
+---
+
+## 🏗 Desktop Utility Applications
+
+**Overview**
+
+Designed and developed multiple Windows desktop applications to automate repetitive tasks, improve productivity, and simplify engineering workflows.
+
+### Highlights
+
+* Custom Software Development
+* Data Management
+* File Processing
+* User-Friendly Interface
+* Workflow Automation
+
+**Technologies**
+
+VB.NET • Windows Forms • SQL Server

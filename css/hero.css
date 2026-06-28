@@ -1,0 +1,257 @@
+/*=========================================
+            HERO
+=========================================*/
+
+.hero {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 80px;
+
+  min-height: 100vh;
+}
+
+/*=========================================
+            LEFT
+=========================================*/
+
+.hero-left {
+  flex: 1;
+}
+
+.welcome {
+  color: var(--primary);
+
+  font-size: 22px;
+
+  margin-bottom: 15px;
+}
+
+.hero h1 {
+  font-size: 72px;
+
+  line-height: 1.1;
+
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: var(--primary);
+}
+
+.hero h2 {
+  color: #bbbbbb;
+
+  font-size: 32px;
+
+  margin-bottom: 30px;
+
+  font-weight: 500;
+}
+
+.description {
+  max-width: 650px;
+
+  color: var(--text);
+
+  font-size: 18px;
+
+  line-height: 1.9;
+
+  margin-bottom: 45px;
+}
+
+/*=========================================
+            BUTTONS
+=========================================*/
+
+.hero-buttons {
+  display: flex;
+
+  gap: 20px;
+
+  margin-bottom: 40px;
+}
+
+.btn {
+  padding: 16px 38px;
+
+  border-radius: 50px;
+
+  font-size: 16px;
+
+  transition: 0.35s;
+}
+
+.primary {
+  background: var(--primary);
+
+  color: black;
+
+  font-weight: 700;
+}
+
+.primary:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 10px 35px rgba(0, 212, 255, 0.35);
+}
+
+.secondary {
+  border: 2px solid var(--primary);
+
+  background: transparent;
+
+  color: white;
+}
+
+.secondary:hover {
+  background: var(--primary);
+
+  color: black;
+}
+
+/*=========================================
+            SOCIAL
+=========================================*/
+
+.social {
+  display: flex;
+
+  gap: 20px;
+}
+
+.social a {
+  width: 52px;
+
+  height: 52px;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  font-size: 22px;
+
+  transition: 0.35s;
+}
+
+.social a:hover {
+  background: var(--primary);
+
+  color: black;
+
+  transform: translateY(-5px);
+}
+
+/*=========================================
+            RIGHT
+=========================================*/
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-circle {
+  position: relative;
+
+  height: 500px;
+
+  border-radius: 45px;
+
+  overflow: visible;
+}
+
+.profile-circle img {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  border-radius: 45px;
+
+  display: block;
+
+  z-index: 2;
+
+  /* background: #111; */
+  background: transparent;
+  filter: drop-shadow(20px 20px 0px rgba(255, 255, 255, 1));
+  border: 2px solid white;
+  
+}
+
+/* Rainbow Glow */
+
+.profile-circle::before {
+  content: "";
+
+  position: absolute;
+
+  inset: -35px;
+
+  border-radius: 70px;
+
+  background: linear-gradient(
+    45deg,
+    #00d4ff,
+    transparent,
+    #8b5cf6,
+    transparent,
+    #ff0080,
+    transparent,
+    #00ff88,
+    transparent,
+    #ffd700,
+    transparent,
+    #00d4ff
+  );
+
+  background-size: 400% 400%;
+
+  filter: blur(55px);
+
+  opacity: 0.9;
+
+  animation: glowMove 8s ease infinite;
+
+  z-index: 1;
+  transition: all 0.4s;
+}
+
+@keyframes glowMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.profile-circle:hover::before {
+  filter: blur(20px);
+
+  opacity: 1;
+
+  transition: 0.4s;
+}
